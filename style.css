@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+main {
+  background-image: url("./backbeach.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+#main-hero {
+  background-image: url("c4.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 1; /* Set a higher z-index for the image container */
+}
+
+.main-header-title {
+  width: 100%;
+  font-family: "Playfair Display", serif;
+  font-size: 120px;
+  white-space: nowrap;
+  position: absolute; /* Position the title absolutely within #main-hero */
+  top: 40%;
+  left: 50%;
+  transform: translate(-20%, -50%);
+  z-index: 0; /* Set a lower z-index for the title */
+  color: beige;
+}
+.main-header-title2 {
+  width: 100%;
+  font-family: "Playfair Display", serif;
+  font-size: 120px;
+  white-space: nowrap;
+  position: absolute; /* Position the title absolutely within #main-hero */
+  top: 60%;
+  left: -60%;
+  transform: translate(-50%, -50%);
+  z-index: 0; /* Set a lower z-index for the title */
+  color: beige;
+}
+#Section2 {
+  height: 700px;
+}
